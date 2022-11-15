@@ -640,6 +640,7 @@ footer{
   #modal{width: 70%;}
   .metamaskArrow{margin-left: 25px; height: 5px; width: 5px;}
   .walletArrow{margin-left: 3px; height: 5px; width: 5px;} 
+  #community{display: flex; margin-right: 10px;}
  
 }
 @media screen and (max-width: 480px){
@@ -658,7 +659,8 @@ footer{
   #main_diagrams{flex-direction: column; height: 750px;} #header2_text{font-size: 10px;}
   #container3_main1>h3{width: 100%;} #nft_logo{width: 300px; height: 280px;}
   #main1_note{width: 100%;} #img1,#img2{width: 200px;}
-  #foot2{width: 90%;} 
+  #foot2{width: 100%;} 
+  #community{display: flex; margin-right: 10px;}
   
   
 }
