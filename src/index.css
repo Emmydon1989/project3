@@ -19,6 +19,7 @@
   height: 48px;
   display: flex;
   justify-content: space-around;
+  
 }
 #bar_list{
   display: flex;
@@ -31,8 +32,12 @@
   line-height: 25px;
   list-style: none;
   text-decoration: none;
-
+  border: none;
 }
+#links{
+  text-decoration: none;
+}
+
 #bar_img{
   width: 233px;
   height: 36px;
@@ -340,6 +345,13 @@ footer{
   margin-right: 261px;
   justify-content: space-between;
 }
+#foot2_list{
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+ color: #FFFFFF;
+}
 #community{
   display: flex;
   flex-direction: column;
@@ -362,6 +374,12 @@ footer{
   display: flex;
   flex-direction: column;
   gap: 16px;
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  align-items: center;
+  color: #F1F3F9;
 }
 #m1{
   display: flex;
@@ -623,6 +641,7 @@ footer{
   #main_diagrams{flex-direction: column; height: 750px;} #header2_text{font-size: 10px;}
   #container3_main1>h3{width: 100%;} #nft_logo{width: 300px; height: 350px;}
   #main1_note{width: 100%;} #img1,#img2{width: 200px;}
+  #ul_items{font-size: 10px;} #foot2_list{font-size: 12px;}
   
   
 }

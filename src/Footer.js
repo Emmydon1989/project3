@@ -21,7 +21,7 @@ export default function Footer(){
             </div>
             <div id="foot2">
                 <div id="community">
-                    community
+                    <div id="foot2_list">community</div>
                     <ul id="ul_items">
                         <li>NFTs</li>
                         <li>Tokens</li>
@@ -30,7 +30,7 @@ export default function Footer(){
                     </ul>
                 </div>
                 <div id="places">
-                    Places
+                    <div id="foot2_list">Places</div>
                 <ul id="ul_items">
                         <li>Castle</li>
                         <li>Farms</li>
@@ -39,7 +39,7 @@ export default function Footer(){
                     </ul>
                 </div>
                 <div id="about">
-                    About us
+                <div id="foot2_list">About us</div>
                 <ul id="ul_items">
                         <li>Road map</li>
                         <li>Creators</li>
