@@ -618,11 +618,11 @@ footer{
 @media screen and (max-width: 480px){
   #images_desert2,#images_desert{grid-template-columns: 1fr;}
   #ul_items4{display: grid; grid-template-columns: 1fr 1fr; place-items: center; gap: 10px;
-  font-size: 16px;} #bar_list{gap:20px}
+  font-size: 16px;} #bar_list{display: flex; justify-content: center; font-size: 14px; gap: 20px;} #bar{margin-top: 30px;} #h{font-size: 32px;} #p{font-size: 16px;}
   #header4_text{display: grid; place-items: center; gap:10px}
   #main_diagrams{flex-direction: column; height: 750px;} #header2_text{font-size: 10px;}
   #container3_main1>h3{width: 100%;} #nft_logo{width: 300px; height: 350px;}
-  #main1_note{width: 100%;}
+  #main1_note{width: 100%;} #img1,#img2{width: 200px;}
   
   
 }
