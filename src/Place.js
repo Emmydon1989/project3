@@ -29,7 +29,7 @@ export default function Place(){
             </div>
             </div>
         <div id="images_desert2">
-            <div id="desert1_con">
+            <div id="desert_con">
                 <img src="/assets/desert1.png" alt="" id="desert_img"></img>
                 <div id="desert-img_details">
                     <div id="d1">
@@ -44,7 +44,7 @@ export default function Place(){
                 </div>
             </div>
             
-            <div id="desert2_con">
+            <div id="desert_con">
                 <img src="/assets/desert2.png" alt="" id="desert_img"></img>
                 <div id="desert-img_details">
                     <div id="d1">
@@ -58,7 +58,7 @@ export default function Place(){
                     <div id="d3"><img src="/assets/star.png" alt=""></img></div>
                 </div>
             </div>  
-            <div id="desert3_con">
+            <div id="desert_con">
                 <img src="/assets/desert3.png" alt="" id="desert_img"></img>
                 <div id="desert-img_details">
                     <div id="d1">
@@ -72,7 +72,7 @@ export default function Place(){
                     <div id="d3"><img src="/assets/star.png" alt=""></img></div>
                 </div>
             </div>  
-            <div id="desert4_con">
+            <div id="desert_con">
                 <img src="/assets/desert4.png" alt="" id="desert_img"></img>
                 <div id="desert-img_details">
                     <div id="d1">
@@ -86,7 +86,7 @@ export default function Place(){
                     <div id="d3"><img src="/assets/star.png" alt=""></img></div>
                 </div>
             </div>  
-            <div id="desert9_con">
+            <div id="desert_con">
                 <img src="/assets/desert9.png" alt="" id="desert_img"></img>
                 <div id="desert-img_details">
                     <div id="d1">
@@ -100,7 +100,7 @@ export default function Place(){
                     <div id="d3"><img src="/assets/star.png" alt=""></img></div>
                 </div>
             </div>  
-            <div id="desert10_con">
+            <div id="desert_con">
                 <img src="/assets/desert10.png" alt="" id="desert_img"></img>
                 <div id="desert-img_details">
                     <div id="d1">
@@ -114,7 +114,7 @@ export default function Place(){
                     <div id="d3"><img src="/assets/star.png" alt=""></img></div>
                 </div>
             </div>
-            <div id="desert11_con">
+            <div id="desert_con">
                 <img src="/assets/desert11.png" alt="" id="desert_img"></img>
                 <div id="desert-img_details">
                     <div id="d1">
@@ -128,7 +128,7 @@ export default function Place(){
                     <div id="d3"><img src="/assets/star.png" alt=""></img></div>
                 </div>
             </div>
-            <div id="desert12_con">
+            <div id="desert_con">
                 <img src="/assets/desert12.png" alt="" id="desert_img"></img>
                 <div id="desert-img_details">
                     <div id="d1">
@@ -142,7 +142,7 @@ export default function Place(){
                     <div id="d3"><img src="/assets/star.png" alt=""></img></div>
                 </div>
             </div> 
-            <div id="desert13_con">
+            <div id="desert_con">
                 <img src="/assets/desert13.png" alt="" id="desert_img"></img>
                 <div id="desert-img_details">
                     <div id="d1">
@@ -156,7 +156,7 @@ export default function Place(){
                     <div id="d3"><img src="/assets/star.png" alt=""></img></div>
                 </div>
             </div>
-            <div id="desert14_con">
+            <div id="desert_con">
                 <img src="/assets/desert14.png" alt="" id="desert_img"></img>
                 <div id="desert-img_details">
                     <div id="d1">
@@ -170,7 +170,7 @@ export default function Place(){
                     <div id="d3"><img src="/assets/star.png" alt=""></img></div>
                 </div>
             </div>
-            <div id="desert15_con">
+            <div id="desert_con">
                 <img src="/assets/desert16.png" alt="" id="desert_img"></img>
                 <div id="desert-img_details">
                     <div id="d1">
@@ -184,7 +184,7 @@ export default function Place(){
                     <div id="d3"><img src="/assets/star.png" alt=""></img></div>
                 </div>
             </div>
-            <div id="desert16_con">
+            <div id="desert_con">
                 <img src="/assets/desert16.png" alt="" id="desert_img"></img>
                 <div id="desert-img_details">
                     <div id="d1">

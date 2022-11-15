@@ -61,7 +61,7 @@ function Home(){
             Inspiration for your next adventure
             </div>
         <div id="images_desert">
-            <div id="desert1_con">
+            <div id="desert_con">
                 <img src="/assets/desert1.png" alt="" id="desert_img"></img>
                 <div id="desert-img_details">
                     <div id="d1">
@@ -76,7 +76,7 @@ function Home(){
                 </div>
             </div>
             
-            <div id="desert2_con">
+            <div id="desert_con">
                 <img src="/assets/desert2.png" alt="" id="desert_img"></img>
                 <div id="desert-img_details">
                     <div id="d1">
@@ -90,7 +90,7 @@ function Home(){
                     <div id="d3"><img src="/assets/star.png" alt=""></img></div>
                 </div>
             </div>  
-            <div id="desert3_con">
+            <div id="desert_con">
                 <img src="/assets/desert3.png" alt="" id="desert_img"></img>
                 <div id="desert-img_details">
                     <div id="d1">
@@ -104,7 +104,7 @@ function Home(){
                     <div id="d3"><img src="/assets/star.png" alt=""></img></div>
                 </div>
             </div>  
-            <div id="desert4_con">
+            <div id="desert_con">
                 <img src="/assets/desert4.png" alt="" id="desert_img"></img>
                 <div id="desert-img_details">
                     <div id="d1">
@@ -118,7 +118,7 @@ function Home(){
                     <div id="d3"><img src="/assets/star.png" alt=""></img></div>
                 </div>
             </div>  
-            <div id="desert5_con">
+            <div id="desert_con">
                 <img src="/assets/desert5.png" alt="" id="desert_img"></img>
                 <div id="desert-img_details">
                     <div id="d1">
@@ -132,7 +132,7 @@ function Home(){
                     <div id="d3"><img src="/assets/star.png" alt=""></img></div>
                 </div>
             </div>  
-            <div id="desert6_con">
+            <div id="desert_con">
                 <img src="/assets/desert6.png" alt="" id="desert_img"></img>
                 <div id="desert-img_details">
                     <div id="d1">
@@ -146,7 +146,7 @@ function Home(){
                     <div id="d3"><img src="/assets/star.png" alt=""></img></div>
                 </div>
             </div>
-            <div id="desert7_con">
+            <div id="desert_con">
                 <img src="/assets/desert7.png" alt="" id="desert_img"></img>
                 <div id="desert-img_details">
                     <div id="d1">
@@ -160,7 +160,7 @@ function Home(){
                     <div id="d3"><img src="/assets/star.png" alt=""></img></div>
                 </div>
             </div>
-            <div id="desert8_con">
+            <div id="desert_con">
                 <img src="/assets/desert8.png" alt="" id="desert_img"></img>
                 <div id="desert-img_details">
                     <div id="d1">
