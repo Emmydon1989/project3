@@ -4,6 +4,7 @@ export default function Footer(){
     return(
         
     <footer>
+        <div id="footer1">
             <div id="foot1">
                 <div id="foot1_meta">
                     <img src="/assets/footer_bnb.png" alt=""></img>
@@ -48,7 +49,9 @@ export default function Footer(){
                     </ul>                    
                 </div>
             </div>
-        </footer>
+
+        </div>
+    </footer>
         
     )
 }

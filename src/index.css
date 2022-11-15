@@ -38,6 +38,10 @@
 #links{
   text-decoration: none;
   color: #434343;
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 #bar_img{
@@ -75,11 +79,10 @@
   justify-content: center;
   flex-direction: column;
   gap: 48px;
-  width: 52%;
-  
-  
+  width: 52%; 
   
 }
+
 #h{
   font-family: 'Red Rose';
   font-style: normal;
@@ -89,11 +92,15 @@
   letter-spacing: -0.02em;
   color: #434343;
   margin: 0px;
+  letter-spacing: -0.02em;
+  flex: none;
+  order: 0;
+  max-width: 646px;
 }
 #text_color{
   color: #A02279;
 }
-#p{
+#welcome{
   font-family: 'Red Rose';
   font-style: normal;
   font-weight: 400;
@@ -102,6 +109,7 @@
   color: #434343;
   width: 99%;
   margin: 0px;
+  
 }
 #searchbar{
   width: 98%;
@@ -289,7 +297,11 @@ form{
   font-weight: 400;
   font-size: 18px;
   line-height: 35px;
-  color: #FFFFFF;
+  background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  
 }
 #main1_learn{
   width: 156px;
@@ -300,6 +312,8 @@ form{
   justify-content: center;
   align-items: center;
   margin-top: 57px;
+  color: #A02279;
+  
 }
 #nft_logo{
   height: 574px;
@@ -316,10 +330,19 @@ footer{
   align-items: center;
   gap: 12%;
 }
+#footer1{
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12%;
+  width: 84%;
+  max-width: 1240px;
+}
 #foot1{
   display: flex;
   flex-direction: column;
-  margin-left: 200px;  
+    
 }
 #foot1_meta{
   display: flex;
@@ -332,8 +355,7 @@ footer{
 #socialmedia{
   margin-top: 96px;
   display: flex;
-  gap: 33px;
-  
+  gap: 33px;  
 }
 #copywright{
   margin-top: 55px;
@@ -345,7 +367,6 @@ footer{
   width: 48%;
   height: 169px;
   display: flex;
-  margin-right: 261px;
   justify-content: space-between;
 }
 #foot2_list{
@@ -355,6 +376,7 @@ footer{
   font-size: 18px;
  color: #FFFFFF;
 }
+
 #community{
   display: flex;
   flex-direction: column;
@@ -436,7 +458,7 @@ footer{
 }  
 #header4_text{
   display: flex;
-  
+  max-width: 1177px;
   width: 82%;
   list-style: none;
   align-items: center;
@@ -609,7 +631,7 @@ footer{
   
 }@media screen and(max-width:1240px){
   #ul_items4{font-size: 20px; font-weight: 400px;}
-  #nft_logo{width:400px;}
+  #nft_logo{width:400px;} 
   #foot1{display: flex; padding-left: 100px;}
 
 }
@@ -629,13 +651,13 @@ footer{
 }
 @media screen and (max-width:900px) {
   #bar{flex-direction: column; justify-content: center; align-items: center;}
-  #bar_list{gap:35px} 
+  #bar_list{gap:35px} #folder{display: flex; gap: 60px;}
   
   
   #nft_logo{width: 480px; height: 400px;}
   #images_desert2,#images_desert{grid-template-columns: 1fr 1fr;} 
   #header4_text{flex-direction: column;align-items: center;gap: 10px;}
-  footer,#conatiner3_main{flex-direction: column; align-items:center; width: 100%;}
+  #footer1,#conatiner3_main{flex-direction: column; align-items:center; width: 100%;}
   #metamask_bar{flex-direction: column; align-items:center; width: 100%; gap: 10px;}
   #foot2,#foot1{margin: 0%; display: flex; justify-content: center; align-items: center;} 
   #header2_text{font-size: 16px;} #container3_main1{display: flex; margin-top: 90px;}
@@ -652,8 +674,7 @@ footer{
   #images_desert2,#images_desert{grid-template-columns: 1fr;}
   #ul_items4{display: grid; grid-template-columns: 1fr 1fr; place-items: center; gap: 10px;
   font-size: 16px;} #bar_list{display: flex; justify-content: center; flex-direction: column; gap: 10px;} 
-  #bar{margin-top: 30px;} 
-  #h{font-size: 36px;} #p{font-size: 16px;} 
+  #bar{margin-top: 30px;} #h{font-size: 32px;} #welcome{font-size: 16px;}
   #walletConnect{font-size: 14px;} 
   #metawallet{margin: 0;}
   #modal{width: 80%;}

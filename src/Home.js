@@ -15,15 +15,15 @@ function Home(){
             <div id="main">
                 <div id="main_sub">
                     <div id="h">Rent a <span id="text_color">Place</span> away from <span id="text_color">Home</span> in the <span id="text_color">Metaverse</span></div>
-                    <div id="p">we provide you access to luxury and affordable houses
+                    <div id="welcome">we provide you access to luxury and affordable houses
                      in the metaverse, get a chance to turn your 
                      imagination to reality at your comfort zone</div>
-                    <div id="">
+                        <div id="form1">
                         <form >
                         <input type="text" placeholder ="search location" id="input"></input>
                         <button type="submit" id="btn">search</button>
                         </form>
-                    </div>
+                        </div>
                 </div>
                 <div id="main_diagrams">
                     <div id="img1">
