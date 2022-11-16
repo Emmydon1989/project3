@@ -78,6 +78,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
   gap: 48px;
   width: 52%; 
   
@@ -109,6 +110,7 @@
   color: #434343;
   width: 99%;
   margin: 0px;
+  max-width: 636px;
   
 }
 #searchbar{
@@ -123,6 +125,7 @@ form{
   border-radius: 10px;
   width: 98%;
   background-color: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
+  max-width: 618px;
   }
 #btn{
   width: 37%;
@@ -180,12 +183,18 @@ form{
   width: 94%;
   margin-top: 67px;
   background:linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
-  justify-content: space-around;
   align-items: center;
+  justify-content: center;
 }
+#innermetamask{
+  display: flex;
+  width: 94%;
+  max-width: 1162px;
+  justify-content: space-between;
+}                    
 #MBcoin{
   display: flex;
-   width:222px;
+  width:222px;
   height: 50px;
   font-family: 'AirbnbCereal_W_Bd';
   font-style: normal;
@@ -224,7 +233,7 @@ form{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 56%;
+  width: 86%;
   height: 50px;
   font-family: 'Red Rose';
   font-style: normal;
@@ -251,8 +260,13 @@ form{
 #desert-img_details{
   display: flex;
   flex-direction: column;
-  width: 260px;
-  
+  width: 255px;
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  color: #434343;
 }
 #d1{
   display: flex;
@@ -338,6 +352,7 @@ footer{
   gap: 12%;
   width: 84%;
   max-width: 1240px;
+  margin-bottom: 50px;
 }
 #foot1{
   display: flex;
@@ -368,6 +383,7 @@ footer{
   height: 169px;
   display: flex;
   justify-content: space-between;
+  margin-right: 50px;
 }
 #foot2_list{
   font-family: 'Red Rose';
@@ -682,7 +698,7 @@ footer{
   .walletArrow{margin-left: 0px;}  
   #header4_text{display: grid; place-items: center; gap:10px}
   #main_diagrams{flex-direction: column; height: 750px;} #header2_text{font-size: 10px;}
-  #container3_main1>h3{width: 100%;} #nft_logo{width: 300px; height: 280px;}
+  #container3_main1>h3{width: 100%; font-size: 32px;} #nft_logo{width: 300px; height: 280px;}
   #main1_note{width: 320px;} 
   #img1,#img2{width: 200px;}
   #foot2{width: 100%;} 

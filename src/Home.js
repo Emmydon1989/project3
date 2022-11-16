@@ -41,19 +41,20 @@ function Home(){
         </div>
 
         <div id="metamask_bar">
-            <div id="MBcoin">
-            <img src="/assets/MBCoin.png" alt=""></img>
-            MBToken
+            <div id="innermetamask">
+                <div id="MBcoin">
+                <img src="/assets/MBCoin.png" alt=""></img>
+                MBToken
+                </div>
+                <div id="MBcat">
+                    <img src="/assets/MBcat.png" alt=""></img>
+                    <img src="/assets/metamask.png" alt=""></img>
+                </div>
+                <div id="opensea_logo">
+                    <img src="/assets/Opensea_logo.png" alt=""></img>
+                    OpenSea
+                </div>
             </div>
-            <div id="MBcat">
-                <img src="/assets/MBcat.png" alt=""></img>
-                <img src="/assets/metamask.png" alt=""></img>
-            </div>
-            <div id="opensea_logo">
-                <img src="/assets/Opensea_logo.png" alt=""></img>
-                OpenSea
-            </div>
-            
         </div>
 
         <div id="container2">
