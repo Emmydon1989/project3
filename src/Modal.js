@@ -6,7 +6,7 @@ export default function Modal({closeModal}){
     return(
         <div id="overlay">
             <div id="modal">
-                <div id="modalHead">Connect Wallet<span id="closeModal" onClick={() => closeModal(false)}>X</span></div>
+                <div id="modalHead"><div id="innermodalHead">Connect Wallet<span id="closeModal" onClick={() => closeModal(false)}>X</span></div></div>
                 <div id="modalLinks">
                     <div id="metawallet">
                         <p>Choose your preferred wallet:</p>

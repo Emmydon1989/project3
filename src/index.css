@@ -536,9 +536,17 @@ footer{
 #modalHead{
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 100%;
+  
+  
+}
+#innermodalHead{
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-  width: 90%;
   height: 78px;
+  width: 89%;
   border-bottom: 1px solid #CFD8DC;
   font-family: 'Red Rose';
   font-style: normal;
@@ -549,6 +557,7 @@ footer{
   flex: none;
   order: 0;
   flex-grow: 0;
+  
 }
 #closeModal{
   width: 24px;
@@ -560,7 +569,7 @@ footer{
   display: flex;  
 }
 #modalLinks{
-  width: 90%;
+  width: 100%;
   height: 248px;
   display: flex;
   flex-direction: column;
@@ -572,7 +581,6 @@ footer{
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-left: 50px;
 }
 #modalMetamask{
   width: 100%;
@@ -640,15 +648,16 @@ footer{
   height: 100%;
   display: flex;
   
-}@media screen and(max-width:1240px){
+}@media screen and (max-width:1200px){
   #ul_items4{font-size: 20px; font-weight: 400px;}
   #nft_logo{width:400px;} 
-  #foot1{display: flex; padding-left: 100px;}
+  
+  #images_desert2,#images_desert{grid-template-columns: 1fr 1fr 1fr;} 
 
 }
 
-@media screen and (max-width:1200px) {
-  #images_desert2,#images_desert{grid-template-columns: 1fr 1fr 1fr;} 
+@media screen and (max-width:1024px) {
+  #images_desert2,#images_desert{grid-template-columns: 1fr 1fr;} 
   #bar_list{gap:35px} #desert_img{width: 220px; height: 245px;}
   #ul_items4{font-size: 16px; font-weight: 400px;}
   #main,#conatiner3_main{flex-direction: column; align-items: center; justify-content: center; width: 100%;}
@@ -660,17 +669,15 @@ footer{
   .walletArrow{margin-left: 10px; height: 5px; width: 5px;} 
   
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:768px) {
   #bar{flex-direction: column; justify-content: center; align-items: center;}
-  #bar_list{gap:35px} #folder{display: flex; gap: 60px;}
-  
-  
+  #bar_list{gap:35px} #folder{display: flex; gap: 60px;}  
   #nft_logo{width: 480px; height: 400px;}
-  #images_desert2,#images_desert{grid-template-columns: 1fr 1fr;} 
+  #images_desert2,#images_desert{grid-template-columns:  1fr;} 
   #header4_text{flex-direction: column;align-items: center;gap: 10px;}
   #footer1,#conatiner3_main{flex-direction: column; align-items:center; width: 100%;}
-  #metamask_bar{flex-direction: column; align-items:center; width: 100%; gap: 10px;}
-  #foot2,#foot1{margin: 0%; display: flex; justify-content: center; align-items: center;} 
+  #metamask_bar{flex-direction: column; align-items:center;justify-content: center; width: 100%; gap: 10px;}
+  #foot2,#foot1{display: flex; justify-content: center; align-items: center;} 
   #header2_text{font-size: 16px;} #container3_main1{display: flex; margin-top: 90px;}
   #ul_items4{width:100%; font-size: 14px;} #metawallet{margin-left: 20px;}
   #walletConnect{font-size: 18px;}
@@ -681,7 +688,7 @@ footer{
 
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 480px){
   #images_desert2,#images_desert{grid-template-columns: 1fr;}
   #ul_items4{display: grid; grid-template-columns: 1fr 1fr; place-items: center; gap: 10px;
   font-size: 16px;} #bar_list{display: flex; justify-content: center; flex-direction: column; gap: 10px;} 
@@ -696,7 +703,7 @@ footer{
   #container3_main1>h3{width: 100%; font-size: 32px;} #nft_logo{width: 300px; height: 280px;}
   #main1_note{width: 320px;} 
   #img1,#img2{width: 200px;}
-  #foot2{width: 100%;} 
+  #foot2{width: 100%; margin-right: 0px;} 
   #community{display: flex; margin-right: 10px;} 
   #connect{width:60%}
   
