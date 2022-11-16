@@ -183,15 +183,10 @@ form{
   width: 94%;
   margin-top: 67px;
   background:linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
 }
-#innermetamask{
-  display: flex;
-  width: 94%;
-  max-width: 1162px;
-  justify-content: space-between;
-}                    
+                
 #MBcoin{
   display: flex;
   width:222px;

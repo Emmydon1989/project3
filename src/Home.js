@@ -41,7 +41,7 @@ function Home(){
         </div>
 
         <div id="metamask_bar">
-            <div id="innermetamask">
+            
                 <div id="MBcoin">
                 <img src="/assets/MBCoin.png" alt=""></img>
                 MBToken
@@ -54,7 +54,7 @@ function Home(){
                     <img src="/assets/Opensea_logo.png" alt=""></img>
                     OpenSea
                 </div>
-            </div>
+            
         </div>
 
         <div id="container2">
