@@ -125,8 +125,10 @@ form{
   border-radius: 10px;
   width: 98%;
   background-color: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
-  max-width: 618px;
   }
+#form1{
+  width: 98%;
+}
 #btn{
   width: 37%;
   height: 54px;
@@ -677,7 +679,7 @@ footer{
   #header4_text{flex-direction: column;align-items: center;gap: 10px;}
   #footer1,#conatiner3_main{flex-direction: column; align-items:center; width: 100%;}
   #metamask_bar{flex-direction: column; align-items:center;justify-content: center; width: 100%; gap: 10px;}
-  #foot2,#foot1{display: flex; justify-content: center; align-items: center;} 
+  #foot2,#foot1{display: flex; justify-content: center; align-items: center; width: 100%;} 
   #header2_text{font-size: 16px;} #container3_main1{display: flex; margin-top: 90px;}
   #ul_items4{width:100%; font-size: 14px;} #metawallet{margin-left: 20px;}
   #walletConnect{font-size: 18px;}
